@@ -1,6 +1,12 @@
 #!/bin/bash
 #With this script you can download videos easily from www.euniverza.si
 
+#1. Log in to www.euniverza.si and save the cookie to cookie.txt
+#2. Copy the site you want to download videos from (e.g. http://www.euniverza.si/courses/62/evropf_pravo11_ustavnopravo)
+#3. Give euniverza-dl.sh execute rights (sudo chmod u+x euniverza-dl.sh)
+#4. Start the script by using ./euniverza-dl.sh
+#5. Enjoy!
+
 VIDEO=()
 COUNT=1
 NAME=""
